@@ -1,0 +1,28 @@
+{
+  "name": "ts-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node -r ./src/env.ts $npm_config_file"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@langchain/google-genai": "^0.0.12",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@langchain/cohere": "^0.0.8",
+    "@langchain/community": "^0.0.53",
+    "cheerio": "^1.0.0-rc.12",
+    "cohere-ai": "^7.9.5",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.36"
+  }
+}
